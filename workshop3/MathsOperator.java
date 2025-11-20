@@ -15,6 +15,18 @@ public class MathsOperator{
         }
         int sum = num1+num2;
         System.out.println("sum : "+sum);
+        System.out.println("Enter Third Number : ");
+        int num3 = sc.nextInt();
+        System.out.println("In Comparision of Three Numbers : ");
+        if(num1>num2 && num1>num3){
+            System.out.println("the greatest num is "+num1);
+        }else if(num2>num1 &&num2>num3){
+            System.out.println("The greatest num is "+num2);
+        }else{
+            System.out.println("the greatest num is "+num3);
+        }
+        
+        
         
 
 
